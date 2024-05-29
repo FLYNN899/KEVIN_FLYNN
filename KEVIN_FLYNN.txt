@@ -49,7 +49,7 @@ RIGHTARROW
 DELAY 200
 ENTER
 DELAY 5000
-STRING johnjoneshcz"gmail.com
+STRING exampleeemail"gmail.com
 DELAY 700
 CONTROL ENTER
 DELAY 500
